@@ -1,0 +1,29 @@
+.about{
+text-align:left;
+padding: 80px;
+    display: flex;              /* ← agrega esto */
+    flex-direction: row;        /* ← agrega esto */
+    align-items: center;        /* ← agrega esto */
+    justify-content: space-between; /* ← agrega esto */
+    gap: 40px;                  /* ← agrega esto */
+    flex-wrap: nowrap;          /* ← agrega esto */
+}
+
+.about h2{
+color:#d66b7d;
+font-size:40px;
+}
+
+.about h3{
+font-family:cursive;
+}
+
+.about-text {
+    color: #ff477e;
+    margin-left: 70px;
+    background: rgba(255, 255, 255, 0.148);
+    backdrop-filter: blur(0.5px);
+    border: 1px solid rgba(255, 255, 255, 0.048);
+    border-radius: 25px;
+    padding: 35px 45px; 
+}

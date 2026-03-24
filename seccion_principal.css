@@ -1,0 +1,24 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1ddff; /* Mantenemos el fondo rosa */
+    padding: 0; /* Quitamos el padding para que la imagen llegue a los bordes */
+    overflow: hidden; /* Corta cualquier excedente de la imagen */
+}
+
+.hero img {
+    width: 100%; /* La imagen se expande a todo el ancho del cuadro rosa */
+    height: 400px; /* Ajusta la altura que desees para el rectángulo */
+    object-fit: cover;    /* Evita que el cielo se vea estirado */
+    
+    /* 2. Perímetro Rosa */
+    border: 8px solid white; /* El grosor y color del borde rosa */
+    padding: 10px;             /* Espacio entre la foto y el borde rosa */
+    
+    /* 3. Bordes Suaves (Sin esquinas puntiagudas) */
+    border-radius: 30px;       /* Un valor entre 20px y 40px suaviza las esquinas sin hacerlo circular */
+    
+    /* Opcional: una sombra sutil para dar profundidad */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+}

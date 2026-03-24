@@ -1,0 +1,24 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f7f7f7;
+}
+
+.menu ul {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px); /* Efecto de vidrio esmerilado */
+    position: sticky;
+    top: 0;
+}
+
+.menu li{
+cursor:pointer;
+font-weight:bold;
+}
+
+.logo h1 {
+    text-align: center;
+    color: #d66b7d;
+    font-family: 'cursive', sans-serif;
+    margin-top: 20px;
+}
